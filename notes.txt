@@ -1,0 +1,29 @@
+ 1- first section is intro.
+    checkout -> https://mdbootstrap.com/docs/react/sections/intros/;
+
+ 2- custom scroll bar and easy scroll is needed so checkout -> 
+    -> https://mdbootstrap.com/docs/react/advanced/scroll/;
+
+ 3- you will need notification when people send their messages to you.
+    so checkout -> https://mdbootstrap.com/docs/react/advanced/notifications/
+
+ 4- for project section use project v. 3 -> https://mdbootstrap.com/docs/react/sections/projects/
+
+ 5- for contact us section checkout -> https://mdbootstrap.com/docs/react/sections/contact/
+
+ vladimir Script
+ vivaldi    
+Stencil
+Snap ITC
+Showcard Gothic
+Rage
+Parchment
+Papyrus
+Old English Text MT
+Matura MT Script Capitals
+Gigi
+French Script MT
+Edwardian Script ITC
+
+header : intro fixed transparent
+

@@ -8,7 +8,46 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 50%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #2c3e50;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+  transition: all 500ms;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+  width: 8px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.myNavBar{
+  background-color: rgba(0, 0, 0, 0.65)
+}
+
+.logo_img {
+  width: 100px;
+}
+
+.rgba-my_overLay { 
+  background-color: rgba(0, 0, 0, 0.5)
+}
+
+.contactMeContainer{
+  padding-bottom: 3%
 }
