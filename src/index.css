@@ -16,18 +16,18 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2c3e50;
+  background: #3498db;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: black;
+  background: #16a085;
   transition: all 500ms;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: black;
+  background: #16a085;
   width: 8px;
 }
 
@@ -36,8 +36,8 @@ code {
     monospace;
 }
 
-.myNavBar{
-  background-color: rgba(0, 0, 0, 0.65);
+.myNavBar {
+    background-image: linear-gradient(to right, #3498db , #16a085);
 }
 
 *{
@@ -57,7 +57,7 @@ code {
 }
 
 .btn-send {
-  background-color: #2c3e50 !important;
+  background-image: linear-gradient(to right, #3498db , #16a085);
   color: #fff;
   border-radius: 10px;
 }
@@ -65,4 +65,33 @@ code {
 .btn:hover {
   color: #cecece;
   text-decoration: none;
+}
+
+.md-form input[type=text]:focus:not([readonly]), .md-form input[type=password]:focus:not([readonly]), .md-form input[type=email]:focus:not([readonly]), .md-form input[type=url]:focus:not([readonly]), .md-form input[type=time]:focus:not([readonly]), .md-form input[type=date]:focus:not([readonly]), .md-form input[type=datetime-local]:focus:not([readonly]), .md-form input[type=tel]:focus:not([readonly]), .md-form input[type=number]:focus:not([readonly]), .md-form input[type=search-md]:focus:not([readonly]), .md-form input[type=search]:focus:not([readonly]), .md-form textarea.md-textarea:focus:not([readonly]) {
+    box-shadow: 0 1px 0 0 #3498db;
+    border-bottom: 1px solid #3498db;
+    border-right: 1px solid #3498db;
+}
+
+.md-form input[type=text]:focus:not([readonly]) + label, .md-form input[type=password]:focus:not([readonly]) + label, .md-form input[type=email]:focus:not([readonly]) + label, .md-form input[type=url]:focus:not([readonly]) + label, .md-form input[type=time]:focus:not([readonly]) + label, .md-form input[type=date]:focus:not([readonly]) + label, .md-form input[type=datetime-local]:focus:not([readonly]) + label, .md-form input[type=tel]:focus:not([readonly]) + label, .md-form input[type=number]:focus:not([readonly]) + label, .md-form input[type=search-md]:focus:not([readonly]) + label, .md-form input[type=search]:focus:not([readonly]) + label, .md-form textarea.md-textarea:focus:not([readonly]) + label {
+    color: #3498db;
+}
+
+.md-form textarea ~ label.active {
+    color: #3498db;
+}
+
+a{
+  color: #3498db;
+}
+
+.view img, .view video {
+    margin: auto;
+    width: 55%;
+}
+
+a.testimonialLink {
+    color: #3498db;
+    font-weight: 600;
+    font-size: 18px;
 }
