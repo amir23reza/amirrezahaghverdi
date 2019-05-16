@@ -94,4 +94,64 @@ a.testimonialLink {
     color: #3498db;
     font-weight: 600;
     font-size: 18px;
+    position: relative;
+    text-decoration: none;
+}
+
+a.testimonialLink:hover{
+  color: #19a08c;
+}
+
+a.testimonialLink:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #19a08c;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a.testimonialLink:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.projectImg {
+  width : 100% !important;
+}
+
+.projectVideo {
+  width : 100% !important;
+  border-radius: 15px;
+}
+
+.projectPlayIcon {
+    position: absolute;
+    z-index: 3;
+    top: 15px;
+    left: 15px;
+    font-size: 45px;
+    color: #ffffff;
+}
+
+.blankP {
+  position: absolute;
+}
+
+.projectCol {
+  transition: all 1500ms;
+  padding: 0;
+}
+.projectCol:hover {
+  transform: scale(1.15);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  z-index: 5;
 }
