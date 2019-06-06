@@ -17,8 +17,8 @@ class ProjectGallery extends Component{
                         Portfolio
                     </h2>
                     <p className="dark-grey-text w-responsive mx-auto mb-5">
-                        You can see some the latest projects I've been working on below. <br /> As I'm getting more and more interested in mobile development
-                        I just mentioned some projects I've done in this field.<br /> If you want to inquire about my other projects especially in web development you can simply <a href="#contactMe" className="testimonialLink">contact me</a> :)
+                        You can see some the latest projects I've been working on below. <br /> As I'm getting more and more interested in Health Informatics
+                        I just mentioned some projects I've done in this field.<br /> If you want to inquire about my other projects you can simply <a href="#contactMe" className="testimonialLink">contact me</a> :)
                     </p>
                     <MDBRow>
                         <MDBCol md="3" style={{padding : '10px'}}>

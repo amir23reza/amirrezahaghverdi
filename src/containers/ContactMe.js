@@ -117,30 +117,30 @@ class ContactMe extends Component {
                                         <li>
                                             <p>
                                                 <MDBIcon icon="phone" className="pr-2" />
-                                                <a href="tel:+ 98 910 211 8482">+ 98 910 211 8482</a>
+                                                <a className="testimonialLink" style={{fontSize : '16px' , fontWeight : 200}} href="tel:+ 98 910 211 8482">+ 98 910 211 8482</a>
                                         </p>
                                         </li>
                                         <li>
                                             <p>
                                                 <MDBIcon icon="envelope" className="pr-2" />
-                                                <a href="mailto:Amir.reza.haghverdi.khu@gmail.com">Amir.reza.haghverdi.khu@gmail.com</a>
+                                                <a className="testimonialLink" style={{fontSize : '16px' , fontWeight : 200}} href="mailto:Amir.reza.haghverdi.khu@gmail.com">Amir.reza.haghverdi.khu@gmail.com</a>
                                         </p>
                                         </li>
                                     </ul>
                                     <hr className="hr-light my-4" />
                                     <ul className="list-inline text-center list-unstyled">
                                         <li className="list-inline-item">
-                                            <a href="#!" className="p-2 fa-lg w-ic">
+                                            <a href="#!" className="p-2 fa-lg w-ic testimonialLink">
                                                 <MDBIcon fab icon="twitter" />
                                             </a>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#!" className="p-2 fa-lg w-ic">
+                                            <a href="#!" className="p-2 fa-lg w-ic testimonialLink">
                                                 <MDBIcon fab icon="linkedin-in" />
                                             </a>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#!" className="p-2 fa-lg w-ic">
+                                            <a href="#!" className="p-2 fa-lg w-ic testimonialLink">
                                                 <MDBIcon fab icon="instagram" />
                                             </a>
                                         </li>

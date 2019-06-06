@@ -12,7 +12,8 @@ import {
   MDBCarouselInner,
   MDBCarouselItem,
   MDBMask,
-  MDBContainer
+  MDBContainer,
+  MDBBtn
 } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -76,26 +77,53 @@ class Intro extends React.Component {
           >
             <MDBCarouselInner>
               <MDBCarouselItem itemId="1">
-                <MDBView src={require('../images/cleanCode.png')}>
+                <MDBView src={require('../images/slide1.jpg')}>
                   <MDBMask overlay="my_overLay" className="flex-center flex-column text-white text-center">
-                    <h2>Keep the code SIMPLE & CLEAN...</h2>
-                    <h1>Sophisticated apps will come out of it.</h1>
+                    <h2>Hello & Welcome</h2>
+                    <h1>I'm Amir Reza Haghverdi</h1>
+                    <br />
+                    <MDBBtn className="cvBtn" outline color="white">
+                      Download CV
+                    </MDBBtn>
+                    <div className="icon-scroll">
+                      <div className="mouse">
+                        <div className="wheel"></div>
+                      </div>
+                    </div>
                   </MDBMask>
                 </MDBView>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="2">
                 <MDBView src={require('../images/introBack.jpeg')}>
                   <MDBMask overlay="my_overLay" className="flex-center flex-column text-white text-center">
-                    <h2>A good programmer is nothing ...</h2>
-                    <h1>But a good researcher.</h1>
+                    <h2>I'm a software engineer.</h2>
+                    <h1>Head of Mobile Development in Rayan Pajouh, Medical Informatic company.</h1>
+                    <br />
+                    <MDBBtn className="cvBtn" outline color="white">
+                      Download CV
+                    </MDBBtn>
+                    <div className="icon-scroll">
+                      <div className="mouse">
+                        <div className="wheel"></div>
+                      </div>
+                    </div>
                   </MDBMask>
                 </MDBView>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="3">
                 <MDBView src={require('../images/creative.jpg')}>
                   <MDBMask overlay="my_overLay" className="flex-center flex-column text-white text-center">
-                    <h2>Follow the standards ...</h2>
-                    <h1>But be creative when possible.</h1>
+                    <h2>I follow the standards ...</h2>
+                    <h1>But try to be creative when possible.</h1>
+                    <br />
+                    <MDBBtn className="cvBtn" outline color="white">
+                      Download CV
+                    </MDBBtn>
+                    <div className="icon-scroll">
+                      <div className="mouse">
+                        <div className="wheel"></div>
+                      </div>
+                    </div>
                   </MDBMask>
                 </MDBView>
               </MDBCarouselItem>
