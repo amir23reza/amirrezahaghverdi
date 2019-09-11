@@ -12,7 +12,6 @@ import {
   MDBCarouselInner,
   MDBCarouselItem,
   MDBMask,
-  MDBContainer,
   MDBBtn
 } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -46,10 +45,13 @@ class Intro extends React.Component {
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav left>
                   <MDBNavItem active>
-                    <MDBNavLink to="#">Principles</MDBNavLink>
+                    <MDBNavLink to="#">Home</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
                     <MDBNavLink to="#">So Far</MDBNavLink>
+                  </MDBNavItem>
+                  <MDBNavItem>
+                    <MDBNavLink to="#">Skills</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
                     <MDBNavLink to="#">Considerations</MDBNavLink>
@@ -59,9 +61,6 @@ class Intro extends React.Component {
                   </MDBNavItem>
                   <MDBNavItem>
                     <MDBNavLink to="#contactMe">Contact Me</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to="#">Blog</MDBNavLink>
                   </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>
