@@ -112,19 +112,27 @@ class SoFar extends Component {
                                             </p>
                                         </li>
                                     </MDBAnimation>
-                                    <MDBAnimation reveal type="fadeInLeft">
-                                        <li class="event" data-date="December 2018">
-                                            <h3>Hardware experience</h3>
-                                            <p>
-                                                Learnt alot in one of my best educational experiences, Micro processor lab. I was given an atmega 32 micro processor and a bread board and I had to implement several projects, started from a simple LED blinker to a complex morse coded door opener. But the Final project was to implement a line tracker robot using arduino robot and I managed to build it adequately well.
-                                            </p>
-                                        </li>
-                                    </MDBAnimation>
                                     <MDBAnimation reveal type="fadeInRight">
                                         <li class="event" data-date="January 2019">
                                             <h3>Professional career</h3>
                                             <p>
                                                 Before the last semester of my bachelor graduation, I got hired in Rayan Pajouh Co. as a senior mobile developer. I implement medical-related mobile applications there and manage a group of 3 developers. System design, startup planning, setting up marketing strategies are my side activitis.
+                                            </p>
+                                        </li>
+                                    </MDBAnimation>
+                                    <MDBAnimation reveal type="fadeInLeft">
+                                        <li class="event" data-date="June 2019">
+                                            <h3>B.Sc final project</h3>
+                                            <p>
+                                                Implemented a mobile application for the final project under supervision of Dr.Leili Mirtaheri. The idea of application was about legal problems of people which they can ask in the app and get answered by junior lawyer, something like stackoverflow but in law feild. For the first time, I used <span className="bold-span">Node JS</span> and <span className="bold-span">Mongo DB</span> for server side and database of the application respectively. But the client side was implemented by <span className="bold-span">React Native</span> technology once more.
+                                            </p> 
+                                        </li>
+                                    </MDBAnimation>
+                                    <MDBAnimation reveal type="fadeInRight">
+                                        <li class="event" data-date="June 2019">
+                                            <h3>B.Sc Graduation</h3>
+                                            <p>
+                                                Managed to graduate from Kharazmi university with GPA of 16.76 / 20 in 4 years ( 17.28 / 20 in the last two years ) passing 141 units. I got honored to be eligible to study artificial inteligence directly in Kharazmi university as an elite student, as I finished the program within the top 10 percent of the class (ranked 4 among 40 students).
                                             </p>
                                         </li>
                                     </MDBAnimation>
