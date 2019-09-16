@@ -112,7 +112,7 @@ class SoFar extends Component {
                                             </p>
                                         </li>
                                     </MDBAnimation>
-                                    <MDBAnimation reveal type="fadeInRight">
+                                    <MDBAnimation reveal type="fadeInLeft">
                                         <li class="event" data-date="January 2019">
                                             <h3>Professional career</h3>
                                             <p>
@@ -120,7 +120,7 @@ class SoFar extends Component {
                                             </p>
                                         </li>
                                     </MDBAnimation>
-                                    <MDBAnimation reveal type="fadeInLeft">
+                                    <MDBAnimation reveal type="fadeInRight">
                                         <li class="event" data-date="June 2019">
                                             <h3>B.Sc final project</h3>
                                             <p>
@@ -128,7 +128,7 @@ class SoFar extends Component {
                                             </p> 
                                         </li>
                                     </MDBAnimation>
-                                    <MDBAnimation reveal type="fadeInRight">
+                                    <MDBAnimation reveal type="fadeInLeft">
                                         <li class="event" data-date="June 2019">
                                             <h3>B.Sc Graduation</h3>
                                             <p>
