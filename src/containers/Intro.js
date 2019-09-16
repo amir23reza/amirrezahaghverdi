@@ -76,7 +76,7 @@ class Intro extends React.Component {
           >
             <MDBCarouselInner>
               <MDBCarouselItem itemId="1">
-                <MDBView src={require('../images/slide1.jpg')}>
+                <MDBView src={require('../images/welcome.jpg')}>
                   <MDBMask overlay="my_overLay" className="flex-center flex-column text-white text-center">
                     <h2>Hello & Welcome</h2>
                     <h1>I'm Amir Reza Haghverdi</h1>
@@ -93,10 +93,10 @@ class Intro extends React.Component {
                 </MDBView>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="2">
-                <MDBView src={require('../images/introBack.jpeg')}>
+                <MDBView src={require('../images/tophpc.png')}>
                   <MDBMask overlay="my_overLay" className="flex-center flex-column text-white text-center">
-                    <h2>I'm a software engineer.</h2>
-                    <h1>Head of Mobile Development in Rayan Pajouh, Medical Informatic company.</h1>
+                    <h2>I am honored</h2>
+                    <h1>To be an executive member of TopHPC Congress</h1>
                     <br />
                     <MDBBtn className="cvBtn" outline color="white">
                       Download CV
@@ -110,10 +110,10 @@ class Intro extends React.Component {
                 </MDBView>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="3">
-                <MDBView src={require('../images/creative.jpg')}>
+                <MDBView src={require('../images/react_iran.jpg')}>
                   <MDBMask overlay="my_overLay" className="flex-center flex-column text-white text-center">
-                    <h2>I follow the standards ...</h2>
-                    <h1>But try to be creative when possible.</h1>
+                    <h2>I am honored</h2>
+                    <h1>To be a member of React Iran Community.</h1>
                     <br />
                     <MDBBtn className="cvBtn" outline color="white">
                       Download CV

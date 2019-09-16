@@ -19,7 +19,7 @@ const TestimonialsPage = () => {
                             <MDBView>
                                 <MDBView className="mx-auto">
                                     <img
-                                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
+                                        src={require('../images/testimonial/mirtaheri.jpg')}
                                         alt=""
                                         className="rounded-circle z-depth-1 img-fluid"
                                     />
@@ -32,9 +32,7 @@ const TestimonialsPage = () => {
                             </h6>
                                 <p className="font-weight-normal dark-grey-text">
                                     <MDBIcon className="fa fa-quote-left pr-2" />
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                                    eos id officiis hic tenetur quae quaerat ad velit ab hic
-                                    tenetur.
+                                    He represents a complete package of a human, having a strong say both in technical and moral aspects as an engineer.
                             </p>
                             </MDBView>
                         </MDBAnimation>
@@ -44,8 +42,8 @@ const TestimonialsPage = () => {
                             <MDBView>
                                 <MDBView className="mx-auto">
                                     <img
-                                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
-                                        alt=""
+                                        src={require('../images/testimonial/taheri.jpg')}
+                                        alt="taheri"
                                         className="rounded-circle z-depth-1 img-fluid"
                                     />
                                 </MDBView>
@@ -57,8 +55,7 @@ const TestimonialsPage = () => {
                             </h6>
                                 <p className="font-weight-normal dark-grey-text">
                                     <MDBIcon className="fa fa-quote-left pr-2" />
-                                    Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                                    corporis suscipit laboriosam, nisi ut aliquid commodi.
+                                    He is going to be beneficial, even more than what he is right now, to his all surroundings. I like the way he searches to solve complexities.
                             </p>
                             </MDBView>
                         </MDBAnimation>
@@ -68,8 +65,8 @@ const TestimonialsPage = () => {
                             <MDBView>
                                 <MDBView className="mx-auto">
                                     <img
-                                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg"
-                                        alt=""
+                                        src={require('../images/testimonial/salehi.jpg')}
+                                        alt="salehi"
                                         className="rounded-circle z-depth-1 img-fluid"
                                     />
                                 </MDBView>
@@ -81,8 +78,7 @@ const TestimonialsPage = () => {
                             </h6>
                                 <p className="font-weight-normal dark-grey-text">
                                     <MDBIcon className="fa fa-quote-left pr-2" />
-                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                    blanditiis praesentium voluptatum deleniti atque corrupti.
+                                    His ability to manage junior developers of the company and feeling responsible to complete the tasks in time is admirable.
                             </p>
                             </MDBView>
                         </MDBAnimation>

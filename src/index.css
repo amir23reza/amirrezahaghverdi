@@ -388,3 +388,18 @@ a.soFarLink:hover {
   padding-left: 1%;
   border-radius: 5px;
 }
+
+.soFarParagraph {
+  text-align: center;
+  margin-top : 5px;
+}
+
+@media (max-width: 768px){
+  .timeline .event:nth-child(1)::before, .timeline .event:nth-child(3)::before, .timeline .event:nth-child(5)::before {
+    margin: auto;
+    color: #16a085;
+}
+.soFarParagraph{
+  margin-top: 10%;
+}
+}
