@@ -28,7 +28,7 @@ class SoFar extends Component {
                                         <li class="event" data-date="June 2015">
                                             <h3>Diploma</h3>
                                             <p>
-                                                Graduated from Mandegar Alborz highschool, one of the first modern highschools in Asia and Middle East, with GPA of 19.18 / 20.
+                                                Graduated from Mandegar Alborz highschool, <a href="https://en.wikipedia.org/wiki/Alborz_High_School" rel="noopener noreferrer" target="_blank" className="soFarLink">one of the first modern highschools in Asia and Middle East</a>, with GPA of 19.18 / 20.
                                             </p>
                                         </li>
                                     </MDBAnimation>
@@ -36,7 +36,7 @@ class SoFar extends Component {
                                         <li class="event" data-date="July 2015">
                                             <h3>University entrance</h3>
                                             <p>
-                                                Ranked among the first 2 percent of 181,846 applicants for country-wide university exam entrance, Konkur, getting accepted for the computer engineering program of Kharazmi university.
+                                                Ranked among the first 2 percent of 181,846 applicants for country-wide university exam entrance, Konkur, getting accepted for the computer engineering program of <a href="https://khu.ac.ir/index.php?sid=82&slc_lang=en" target="_blank" rel="noopener noreferrer" className="soFarLink">Kharazmi university, the first Institute of higher education in Iran</a>.
                                             </p>
                                         </li>
                                     </MDBAnimation>
@@ -76,7 +76,7 @@ class SoFar extends Component {
                                         <li class="event" data-date="October 2017">
                                             <h3>TopHPC Congress</h3>
                                             <p>
-                                                Started developing the website and android application of TopHPC 2019 congress which was about High Performance Computing and Big data with gathering of experts and professionals from all around the world. The final result was not entirely developed by me, but I was honored to be named an executive member of the congress, which was my first international experience.
+                                                Started developing the website and android application of <a href="http://tophpc.com" rel="noopener noreferrer" target="_blank" className="soFarLink">TopHPC 2019</a> congress which was about High Performance Computing and Big data with gathering of experts and professionals from all around the world. The final result was not entirely developed by me, but I was honored to be named an executive member of the congress, which was my first international experience.
                                             </p>
                                         </li>
                                     </MDBAnimation>
@@ -116,7 +116,7 @@ class SoFar extends Component {
                                         <li class="event" data-date="January 2019">
                                             <h3>Professional career</h3>
                                             <p>
-                                                Before the last semester of my bachelor graduation, I got hired in Rayan Pajouh Co. as a senior mobile developer. I implement medical-related mobile applications there and manage a group of 3 developers. System design, startup planning, setting up marketing strategies are my side activitis.
+                                                Before the last semester of my bachelor graduation, I got hired in <a href="http://rps.co.ir" rel="noopener noreferrer" target="_blank" className="soFarLink">Rayan Pajouh Co.</a> as a senior mobile developer. I implement medical-related mobile applications there and manage a group of 3 developers. System design, startup planning, setting up marketing strategies are my side activitis.
                                             </p>
                                         </li>
                                     </MDBAnimation>
