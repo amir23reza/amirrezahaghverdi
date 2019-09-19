@@ -15,6 +15,9 @@ import {
   MDBBtn
 } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
+import {
+  Link , Element
+} from 'react-scroll';
 
 class Intro extends React.Component {
   constructor(props) {
@@ -44,30 +47,42 @@ class Intro extends React.Component {
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav left>
-                  <MDBNavItem active>
-                    <MDBNavLink to="#">Home</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to="#">So Far</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to="#">Skills</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to="#">Considerations</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to="#">Portifolio</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to="#contactMe">Contact Me</MDBNavLink>
-                  </MDBNavItem>
+                  <Link to="home" spy={true} smooth={true} duration={1200}>
+                    <MDBNavItem>
+                      <MDBNavLink to="#">Home</MDBNavLink>
+                    </MDBNavItem>
+                  </Link>
+                  <Link to="soFar" spy={true} smooth={true} duration={1200}>
+                    <MDBNavItem>
+                      <MDBNavLink to="#">So Far</MDBNavLink>
+                    </MDBNavItem>
+                  </Link>
+                  <Link to="portfolio" spy={true} smooth={true} duration={1200}>
+                    <MDBNavItem>
+                      <MDBNavLink to="#">Portfolio</MDBNavLink>
+                    </MDBNavItem>
+                  </Link>
+                  <Link to="skills" spy={true} smooth={true} duration={1200}>
+                    <MDBNavItem>
+                      <MDBNavLink to="#">Skills</MDBNavLink>
+                    </MDBNavItem>
+                  </Link>
+                  <Link to="considerations" spy={true} smooth={true} duration={1200}>
+                    <MDBNavItem>
+                      <MDBNavLink to="#">Considerations</MDBNavLink>
+                    </MDBNavItem>
+                  </Link>
+                  <Link to="contact" spy={true} smooth={true} duration={1200}>
+                    <MDBNavItem>
+                      <MDBNavLink to="#">Contact Me</MDBNavLink>
+                    </MDBNavItem>
+                  </Link>
                 </MDBNavbarNav>
               </MDBCollapse>
             </MDBNavbar>
           </Router>
-
-          <MDBCarousel
+          <Element name="home">
+            <MDBCarousel
             activeItem={1}
             length={3}
             showControls={true}
@@ -81,7 +96,7 @@ class Intro extends React.Component {
                     <h2>Hello & Welcome</h2>
                     <h1>I'm Amir Reza Haghverdi</h1>
                     <br />
-                    <MDBBtn className="cvBtn" outline color="white">
+                      <MDBBtn className="cvBtn" outline color="white" href="http://amirrezahaghverdi.com/cv.pdf" target="_blank">
                       Download CV
                     </MDBBtn>
                     <div className="icon-scroll">
@@ -98,7 +113,7 @@ class Intro extends React.Component {
                     <h2>I am honored</h2>
                     <h1>To be an executive member of TopHPC Congress</h1>
                     <br />
-                    <MDBBtn className="cvBtn" outline color="white">
+                    <MDBBtn className="cvBtn" outline color="white" href="http://amirrezahaghverdi.com/cv.pdf" target="_blank">
                       Download CV
                     </MDBBtn>
                     <div className="icon-scroll">
@@ -115,7 +130,7 @@ class Intro extends React.Component {
                     <h2>I am honored</h2>
                     <h1>To be a member of React Iran Community.</h1>
                     <br />
-                    <MDBBtn className="cvBtn" outline color="white">
+                      <MDBBtn className="cvBtn" outline color="white" href="http://amirrezahaghverdi.com/cv.pdf" target="_blank">
                       Download CV
                     </MDBBtn>
                     <div className="icon-scroll">
@@ -128,6 +143,7 @@ class Intro extends React.Component {
               </MDBCarouselItem>
             </MDBCarouselInner>
           </MDBCarousel>
+          </Element>
         </header>
       </div>
     );

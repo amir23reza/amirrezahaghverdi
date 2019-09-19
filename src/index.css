@@ -403,3 +403,15 @@ a.soFarLink:hover {
   margin-top: 10%;
 }
 }
+
+.element{
+  padding-top: 70px;
+}
+
+#content{
+  margin-top: 0px;
+}
+
+.centerTitle{
+  text-align: center
+}
