@@ -8,8 +8,8 @@ class Skills extends Component {
                 <section className="text-center">
                     <h2 className="h1-responsive my-5">Skills</h2>
                 <MDBRow className="skill_row">
-                    <MDBCol lg="12" md="12" sm="12">
-                        <h3 className="skill_header">UI/UX Design</h3>
+                    <MDBCol lg="6" md="6" sm="12">
+                        <h3 className="skill_header">UI/UX</h3>
                         <MDBAnimation reveal type="fadeInDown">
                             <h5>REACT NATIVE</h5>
                             <MDBProgress value={95} color="progress" height="40px">
@@ -18,14 +18,20 @@ class Skills extends Component {
                         </MDBAnimation>
                         <MDBAnimation reveal type="fadeInDown">
                             <h5>REACT JS</h5>
-                            <MDBProgress value={80} color="progress" height="40px">
-                                PROFICIENT
+                            <MDBProgress value={95} color="progress" height="40px">
+                                EXPERT
+                            </MDBProgress>
+                        </MDBAnimation>
+                        <MDBAnimation reveal type="fadeInDown">
+                            <h5>D3.JS</h5>
+                            <MDBProgress value={95} color="progress" height="40px">
+                                EXPERT
                             </MDBProgress>
                         </MDBAnimation>
                         <MDBAnimation reveal type="fadeInDown">
                             <h5>HTML 5 / CSS 3 / BOOTSTRAP</h5>
-                            <MDBProgress value={80} color="progress" height="40px">
-                                PROFICIENT
+                            <MDBProgress value={95} color="progress" height="40px">
+                                EXPERT
                             </MDBProgress>
                         </MDBAnimation>
                         <MDBAnimation reveal type="fadeInDown">
@@ -35,63 +41,80 @@ class Skills extends Component {
                             </MDBProgress>
                         </MDBAnimation>
                     </MDBCol>
+                    <MDBCol lg="6" md="6" sm="12">
+                        <h3 className="skill_header">Server-side/Databases</h3>
+                        <MDBAnimation reveal type="fadeInDown">
+                            <h5>NodeJS</h5>
+                            <MDBProgress value={95} color="progress" height="40px">
+                                EXPERT
+                            </MDBProgress>
+                        </MDBAnimation>
+                        <MDBAnimation reveal type="fadeInDown">
+                            <h5>Flask (Python)</h5>
+                            <MDBProgress value={80} color="progress" height="40px">
+                                PROFICIENT
+                            </MDBProgress>
+                        </MDBAnimation>
+                        <MDBAnimation reveal type="fadeInDown">
+                            <h5>CodeIgniter (PHP)</h5>
+                            <MDBProgress value={80} color="progress" height="40px">
+                                PROFICIENT
+                            </MDBProgress>
+                        </MDBAnimation>
+                        <MDBAnimation reveal type="fadeInDown">
+                            <h5>MySQL</h5>
+                            <MDBProgress value={80} color="progress" height="40px">
+                                PROFICIENT
+                            </MDBProgress>
+                        </MDBAnimation>
+                        <MDBAnimation reveal type="fadeInDown">
+                            <h5>MongoDB</h5>
+                            <MDBProgress value={80} color="progress" height="40px">
+                                PROFICIENT
+                            </MDBProgress>
+                        </MDBAnimation>
+                    </MDBCol>
+
                 </MDBRow>
 
                 <MDBRow className="skill_row">
                     <MDBCol lg="6" md="6" sm="12">
-                        <h3 className="skill_header">English Profeciency (IELTS)</h3>
+                        <h3 className="skill_header">Data Science</h3>
                         <MDBAnimation reveal type="fadeInDown">
-                            <h5>OVERALL BANDSCORE</h5>
-                            <MDBProgress value={88.88} color="progress" height="40px">
-                                8
+                            <h5>Python</h5>
+                            <MDBProgress value={95} color="progress" height="40px">
+                                EXPERT
                             </MDBProgress>
                         </MDBAnimation>
                         <MDBAnimation reveal type="fadeInDown">
-                            <h5>LISTENING BANDSCORE</h5>
-                            <MDBProgress value={100} color="progress" height="40px">
-                                9
+                            <h5>Machine Learning Algorithms</h5>
+                            <MDBProgress value={80} color="progress" height="40px">
+                                PROFICIENT
                             </MDBProgress>
                         </MDBAnimation>
                         <MDBAnimation reveal type="fadeInDown">
-                            <h5>READING BANDSCORE</h5>
-                            <MDBProgress value={88.88} color="progress" height="40px">
-                                8
-                            </MDBProgress>
-                        </MDBAnimation>
-                        <MDBAnimation reveal type="fadeInDown">
-                            <h5>WRITING BANDSCORE</h5>
-                            <MDBProgress value={72.22} color="progress" height="40px">
-                                6.5
-                            </MDBProgress>
-                        </MDBAnimation>
-                        <MDBAnimation reveal type="fadeInDown">
-                            <h5>SPEAKING BANDSCORE</h5>
-                            <MDBProgress value={88.88} color="progress" height="40px">
-                                8
+                            <h5>Python Modules (PyTorch, Pandas, ...)</h5>
+                            <MDBProgress value={80} color="progress" height="40px">
+                                PROFICIENT
                             </MDBProgress>
                         </MDBAnimation>
                     </MDBCol>
 
                     <MDBCol lg="6" md="6" sm="12">
                         <h3 className="skill_header">Other Skills</h3>
+                        
+
                         <MDBAnimation reveal type="fadeInDown">
-                            <h5>DATABASES( MySQL , MONGO DB)</h5>
+                            <h5>DevOps Tools (Docker, Git)</h5>
                             <MDBProgress value={75} color="progress" height="40px">
                                 PROFICIENT
                             </MDBProgress>
                         </MDBAnimation>
 
                         <MDBAnimation reveal type="fadeInDown">
-                            <h5>SERVER-SIDE LANGUAGES( PHP , NODE JS)</h5>
-                            <MDBProgress value={75} color="progress" height="40px">
+                            <h5>C++, JAVA</h5>
+                            <MDBProgress value={70} color="progress" height="40px">
                                 PROFICIENT
-                            </MDBProgress>
-                        </MDBAnimation>
-
-                        <MDBAnimation reveal type="fadeInDown">
-                            <h5>DATA SCIENCE( PYTHON , NUMPY , SCIPY )</h5>
-                            <MDBProgress value={65} color="progress" height="40px">
-                                COMPETENT
                             </MDBProgress>
                         </MDBAnimation>
 
@@ -102,12 +125,27 @@ class Skills extends Component {
                             </MDBProgress>
                         </MDBAnimation>
 
+                    </MDBCol>
+                </MDBRow>
+                <MDBRow>
+                <MDBCol lg="12" md="12" sm="12">
+                        <h3 className="skill_header">Languages</h3>
+                        
+
                         <MDBAnimation reveal type="fadeInDown">
-                            <h5>C++ &amp; JAVA</h5>
-                            <MDBProgress value={60} color="progress" height="40px">
-                                COMPETENT
+                            <h5>English</h5>
+                            <MDBProgress value={90} color="progress" height="40px">
+                                Full professional proficiency (C1)
                             </MDBProgress>
                         </MDBAnimation>
+
+                        <MDBAnimation reveal type="fadeInDown">
+                            <h5>Persian</h5>
+                            <MDBProgress value={95} color="progress" height="40px">
+                                Native Language
+                            </MDBProgress>
+                        </MDBAnimation>
+
 
                     </MDBCol>
                 </MDBRow>

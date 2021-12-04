@@ -13,9 +13,43 @@ class SoFar extends Component {
                         <div class="row">
                             <div class="col s12 m12 l12">
                                 <h2 className="h1-responsive my-5">
-                                    What has happened so far?
+                                    About Me
                                 </h2>
-                                <ul class="timeline">
+                                <MDBAnimation reveal type="fadeInUp">
+                                    <p className="aboutMeP">I have recently graduated with an M.Sc. degree in Computer Science from the University of Western Ontario. My research focus is information visualization, human-information interaction, Visual Analytics Systems' interaction and interactivity, and scientific documents analysis (ML and NLP approaches).</p>
+                                    <p className="aboutMeP">Before starting my Master's program in Canada, I was a React Native developer in Rayan Pajouh Co. in Tehran, Iran. I was focused on the design and development of healthcare and medical mobile applications. Some of my major contributions and Projects have been mentioned in the Portfolio section.</p>
+                                    <p className="aboutMeP">I got my B.Sc. degree in Computer Engineering from Kharazmi University in 2019. Aside from the valuable courses, I attended during the program, teaching web and mobile application development, holding volunteer seminars and workshops, participating in TopHPC congress as an executive member were some of my precious experiences that shaped my professional personality.</p>
+                                    <p className="aboutMeP">With all these experiences, I enjoy conceptualizing day-to-day phenomena and leveraging my technical skills to design and develop software applications aiming to reduce cognitive loads and complexities for human beings.</p>
+                                </MDBAnimation>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </MDBContainer >
+        )
+    }
+}
+
+export default SoFar;
+
+// import { MDBContainer } from 'mdbreact'
+// import React from 'react'
+
+// const SoFar = () => {
+//     return (
+//         <MDBContainer>
+//             <p className="aboutMeP">I have recently graduated with an M.Sc. degree in Computer Science from the University of Western Ontario. My research focus is information visualization, human-information interaction, Visual Analytics Systems' interaction and interactivity, and scientific documents analysis (ML and NLP approaches).</p>
+//             <p className="aboutMeP">Before starting my Master's program in Canada, I was a React Native developer in Rayan Pajouh Co. in Tehran, Iran. I was focused on the design and development of healthcare and medical mobile applications. Some of my major contributions and Projects have been mentioned in the Portfolio section.</p>
+//             <p className="aboutMeP">I got my B.Sc. degree in Computer Engineering from Kharazmi University in 2019. Aside from the valuable courses, I attended during the program, teaching web and mobile application development, holding volunteer seminars and workshops, participating in TopHPC congress as an executive member were some of my precious experiences that shaped my professional personality.</p>
+//             <p className="aboutMeP">With all these experiences, I enjoy conceptualizing day-to-day phenomena and leveraging my technical skills to design and develop software applications aiming to reduce cognitive loads and complexities for human beings.</p>
+
+//         </MDBContainer>
+//     )
+// }
+
+// export default SoFar
+
+/* <ul class="timeline">
                                     <MDBAnimation reveal type="fadeInLeft">
                                         <li class="event" data-date="August 2011">
                                             <h3>When the journey started</h3>
@@ -125,7 +159,7 @@ class SoFar extends Component {
                                             <h3>B.Sc final project</h3>
                                             <p className="soFarParagraph">
                                                 Implemented a mobile application for the final project under supervision of Dr.Leili Mirtaheri. The idea of application was about legal problems of people which they can ask in the app and get answered by junior lawyer, something like stackoverflow but in law feild. For the first time, I used <span className="bold-span">Node JS</span> and <span className="bold-span">Mongo DB</span> for server side and database of the application respectively. But the client side was implemented by <span className="bold-span">React Native</span> technology once more.
-                                            </p> 
+                                            </p>
                                         </li>
                                     </MDBAnimation>
                                     <MDBAnimation reveal type="fadeInLeft">
@@ -136,14 +170,4 @@ class SoFar extends Component {
                                             </p>
                                         </li>
                                     </MDBAnimation>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </MDBContainer >
-        )
-    }
-}
-
-export default SoFar;
+                                </ul> */

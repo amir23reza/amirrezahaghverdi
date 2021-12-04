@@ -10,7 +10,7 @@ const TestimonialsPage = () => {
                 </h2>
                 <p className="dark-grey-text w-responsive mx-auto mb-5">
                     The following testimonials are from dear people who has been working with me through these recent years.<br />
-                    If you are interested to have a saying about me you can <a href="#contactMe" className="testimonialLink">contact me</a> :) .
+                    If you are interested to have a saying about me you can <a href="mailto:ahaghver@uwo.ca" className="testimonialLink">contact me</a> :) .
                 </p>
 
                 <MDBRow className="text-center">
@@ -28,7 +28,7 @@ const TestimonialsPage = () => {
                                     Dr. Leili Mirtaheri
                             </h4>
                                 <h6 className="font-weight-bold blue-text my-3">
-                                    Local Chair of TopHPC
+                                    Assistant Professor at Kharazmi University
                             </h6>
                                 <p className="font-weight-normal dark-grey-text">
                                     <MDBIcon className="fa fa-quote-left pr-2" />

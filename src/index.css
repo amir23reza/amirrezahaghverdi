@@ -44,6 +44,10 @@ code {
   font-family: "Titillium Web";
 }
 
+.view {
+  background-position: left !important;
+}
+
 .logo_img {
   width: 100px;
 }
@@ -373,6 +377,7 @@ a.portfolio-link {
 /* portfolio */
 .portfolioImage {
   width: 100%;
+  height: 100%;
 }
 
 a.soFarLink {
@@ -414,4 +419,28 @@ a.soFarLink:hover {
 
 .centerTitle{
   text-align: center
+}
+
+/* new styles */
+
+.aboutContainer {
+  display: flex;
+  flex-direction: row !important;
+}
+
+.aboutInfoContainer {
+  flex: 1;
+  text-align: justify;
+  padding: 2%;
+  padding-left: 5%;
+}
+
+.aboutPhoto {
+  flex: 1;
+}
+
+.aboutMeP {
+  margin-top: 1% !important;
+  font-size: 1.2em;
+  text-align: justify;
 }

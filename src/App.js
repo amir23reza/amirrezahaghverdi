@@ -25,9 +25,9 @@ function App() {
       <Element name="considerations" className="element">
         <TestimonialsPage />
       </Element>
-      <Element name="contact" className="element">
+      {/* <Element name="contact" className="element">
         <ContactMe />
-      </Element>
+      </Element> */}
     </div>
   );
 }

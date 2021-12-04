@@ -16,7 +16,7 @@ import {
 } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 import {
-  Link , Element
+  Link, Element
 } from 'react-scroll';
 
 class Intro extends React.Component {
@@ -54,7 +54,7 @@ class Intro extends React.Component {
                   </Link>
                   <Link to="soFar" spy={true} smooth={true} duration={1200}>
                     <MDBNavItem>
-                      <MDBNavLink to="#">So Far</MDBNavLink>
+                      <MDBNavLink to="#">About Me</MDBNavLink>
                     </MDBNavItem>
                   </Link>
                   <Link to="portfolio" spy={true} smooth={true} duration={1200}>
@@ -72,77 +72,39 @@ class Intro extends React.Component {
                       <MDBNavLink to="#">Considerations</MDBNavLink>
                     </MDBNavItem>
                   </Link>
-                  <Link to="contact" spy={true} smooth={true} duration={1200}>
-                    <MDBNavItem>
-                      <MDBNavLink to="#">Contact Me</MDBNavLink>
-                    </MDBNavItem>
-                  </Link>
+                  <MDBNavItem onClick={() => { window.open("mailto:ahaghver@uwo.ca") }}>
+                    <MDBNavLink to="#">Contact Me</MDBNavLink>
+                  </MDBNavItem>
+                  <MDBNavItem onClick={() => { window.open("https://www.linkedin.com/in/amir-reza-haghverdi/") }}>
+                    <MDBNavLink to="#"><i class="fab fa-linkedin"></i></MDBNavLink>
+                  </MDBNavItem>
+                  <MDBNavItem onClick={() => { window.open("https://twitter.com/AmirrezaHagh") }}>
+                    <MDBNavLink to="#"><i class="fab fa-twitter"></i></MDBNavLink>
+                  </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>
             </MDBNavbar>
           </Router>
           <Element name="home">
-            <MDBCarousel
-            activeItem={1}
-            length={3}
-            showControls={true}
-            showIndicators={true}
-            className="z-depth-1"
-          >
-            <MDBCarouselInner>
-              <MDBCarouselItem itemId="1">
-                <MDBView src={require('../images/welcome.jpg')}>
-                  <MDBMask overlay="my_overLay" className="flex-center flex-column text-white text-center">
-                    <h2>Hello & Welcome</h2>
-                    <h1>I'm Amir Reza Haghverdi</h1>
-                    <br />
-                      <MDBBtn className="cvBtn" outline color="white" href="http://amirrezahaghverdi.com/cv.pdf" target="_blank">
-                      Download CV
-                    </MDBBtn>
-                    <div className="icon-scroll">
-                      <div className="mouse">
-                        <div className="wheel"></div>
-                      </div>
+            <MDBView src={require('../images/about.jpg')}>
+              <MDBMask overlay="my_overLay" className="flex-center flex-column text-white text-center aboutContainer">
+                <div className="aboutInfoContainer">
+                  <h2>Hello & Welcome</h2>
+                  <h1>I'm Amir Reza Haghverdi</h1>
+                  <br />
+                  <MDBBtn className="cvBtn" outline color="white" href="http://amirrezahaghverdi.com/cv.pdf" target="_blank">
+                    Download CV
+                  </MDBBtn>
+                  <div className="icon-scroll">
+                    <div className="mouse">
+                      <div className="wheel"></div>
                     </div>
-                  </MDBMask>
-                </MDBView>
-              </MDBCarouselItem>
-              <MDBCarouselItem itemId="2">
-                <MDBView src={require('../images/tophpc.png')}>
-                  <MDBMask overlay="my_overLay" className="flex-center flex-column text-white text-center">
-                    <h2>I am honored</h2>
-                    <h1>To be an executive member of TopHPC Congress</h1>
-                    <br />
-                    <MDBBtn className="cvBtn" outline color="white" href="http://amirrezahaghverdi.com/cv.pdf" target="_blank">
-                      Download CV
-                    </MDBBtn>
-                    <div className="icon-scroll">
-                      <div className="mouse">
-                        <div className="wheel"></div>
-                      </div>
-                    </div>
-                  </MDBMask>
-                </MDBView>
-              </MDBCarouselItem>
-              <MDBCarouselItem itemId="3">
-                <MDBView src={require('../images/react_iran.jpg')}>
-                  <MDBMask overlay="my_overLay" className="flex-center flex-column text-white text-center">
-                    <h2>I am honored</h2>
-                    <h1>To be a member of React Iran Community.</h1>
-                    <br />
-                      <MDBBtn className="cvBtn" outline color="white" href="http://amirrezahaghverdi.com/cv.pdf" target="_blank">
-                      Download CV
-                    </MDBBtn>
-                    <div className="icon-scroll">
-                      <div className="mouse">
-                        <div className="wheel"></div>
-                      </div>
-                    </div>
-                  </MDBMask>
-                </MDBView>
-              </MDBCarouselItem>
-            </MDBCarouselInner>
-          </MDBCarousel>
+                  </div>
+                </div>
+                <div className="aboutPhoto" />
+
+              </MDBMask>
+            </MDBView>
           </Element>
         </header>
       </div>
