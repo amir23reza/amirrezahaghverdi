@@ -41,7 +41,7 @@ class Intro extends React.Component {
         <header>
           <Router>
             <MDBNavbar color="myNavBar" fixed="top" dark expand="md" scrolling transparent>
-              <MDBNavbarBrand href="/">
+              <MDBNavbarBrand>
                 <img src={require('../images/logo.png')} className="fluid logo_img" alt="logo" />
               </MDBNavbarBrand>
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
@@ -92,7 +92,7 @@ class Intro extends React.Component {
                   <h2>Hello & Welcome</h2>
                   <h1>I'm Amir Reza Haghverdi</h1>
                   <br />
-                  <MDBBtn className="cvBtn" outline color="white" href="http://amirrezahaghverdi.com/cv.pdf" target="_blank">
+                  <MDBBtn className="cvBtn" outline color="white" href="./CV_Amirreza_Haghverdi.pdf" target="_blank">
                     Download CV
                   </MDBBtn>
                   <div className="icon-scroll">
