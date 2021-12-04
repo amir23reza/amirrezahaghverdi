@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/amirrezahaghverdi/static/css/main.314ffcc6.chunk.css",
+    "main.js": "/amirrezahaghverdi/static/js/main.6b6a78ba.chunk.js",
+    "main.js.map": "/amirrezahaghverdi/static/js/main.6b6a78ba.chunk.js.map",
+    "runtime~main.js": "/amirrezahaghverdi/static/js/runtime~main.6e4950eb.js",
+    "runtime~main.js.map": "/amirrezahaghverdi/static/js/runtime~main.6e4950eb.js.map",
+    "static/css/2.6ceced1d.chunk.css": "/amirrezahaghverdi/static/css/2.6ceced1d.chunk.css",
+    "static/js/2.90f5fd99.chunk.js": "/amirrezahaghverdi/static/js/2.90f5fd99.chunk.js",
+    "static/js/2.90f5fd99.chunk.js.map": "/amirrezahaghverdi/static/js/2.90f5fd99.chunk.js.map",
+    "index.html": "/amirrezahaghverdi/index.html",
+    "precache-manifest.5016c0bae3422380bced1124228f8840.js": "/amirrezahaghverdi/precache-manifest.5016c0bae3422380bced1124228f8840.js",
+    "service-worker.js": "/amirrezahaghverdi/service-worker.js",
+    "static/css/2.6ceced1d.chunk.css.map": "/amirrezahaghverdi/static/css/2.6ceced1d.chunk.css.map",
+    "static/css/main.314ffcc6.chunk.css.map": "/amirrezahaghverdi/static/css/main.314ffcc6.chunk.css.map",
+    "static/media/mdb.css": "/amirrezahaghverdi/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/about.jpg": "/amirrezahaghverdi/static/media/about.ecee6291.jpg",
+    "static/media/asprin_web-min.png": "/amirrezahaghverdi/static/media/asprin_web-min.7571d953.png",
+    "static/media/biblio1.png": "/amirrezahaghverdi/static/media/biblio1.ab577429.png",
+    "static/media/bimarNegar-min.png": "/amirrezahaghverdi/static/media/bimarNegar-min.ecb84f0a.png",
+    "static/media/clusters.png": "/amirrezahaghverdi/static/media/clusters.8afaff96.png",
+    "static/media/docTel-min.png": "/amirrezahaghverdi/static/media/docTel-min.f51efa2b.png",
+    "static/media/all.min.css": "/amirrezahaghverdi/static/media/fa-solid-900.ff8d9f8a.ttf",
+    "static/media/lawyer-min.png": "/amirrezahaghverdi/static/media/lawyer-min.4787e886.png",
+    "static/media/logo.png": "/amirrezahaghverdi/static/media/logo.74727c77.png",
+    "static/media/mirtaheri.jpg": "/amirrezahaghverdi/static/media/mirtaheri.2372f25c.jpg",
+    "static/media/pop.png": "/amirrezahaghverdi/static/media/pop.dd60abac.png",
+    "static/media/salehi.jpg": "/amirrezahaghverdi/static/media/salehi.f5b6af44.jpg",
+    "static/media/skim.png": "/amirrezahaghverdi/static/media/skim.6fd7dfc7.png",
+    "static/media/taheri.jpg": "/amirrezahaghverdi/static/media/taheri.2c69cdca.jpg"
+  }
+}
