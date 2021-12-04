@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ce4ace605f7ac0587b4ea49992ea7cf",
+    "revision": "d604720a25abbdcb64736cd008fab92c",
     "url": "/amirrezahaghverdi/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/amirrezahaghverdi/static/css/2.6ceced1d.chunk.css"
   },
   {
-    "revision": "ece05532393c4066ea1e",
+    "revision": "cfa3f72c9ad29c461895",
     "url": "/amirrezahaghverdi/static/css/main.314ffcc6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/amirrezahaghverdi/static/js/2.90f5fd99.chunk.js"
   },
   {
-    "revision": "ece05532393c4066ea1e",
-    "url": "/amirrezahaghverdi/static/js/main.6b6a78ba.chunk.js"
+    "revision": "cfa3f72c9ad29c461895",
+    "url": "/amirrezahaghverdi/static/js/main.02930156.chunk.js"
   },
   {
     "revision": "c9a85909428292d3162d",
