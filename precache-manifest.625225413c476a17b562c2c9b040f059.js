@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d604720a25abbdcb64736cd008fab92c",
+    "revision": "cd96baf5e879f12d30e485452ecb821a",
     "url": "/amirrezahaghverdi/index.html"
   },
   {
-    "revision": "c117ce5dd28ff625a2a6",
+    "revision": "1acfcbc4dfa4825fa20c",
     "url": "/amirrezahaghverdi/static/css/2.6ceced1d.chunk.css"
   },
   {
-    "revision": "cfa3f72c9ad29c461895",
+    "revision": "3c6ec8e43816c2d101c2",
     "url": "/amirrezahaghverdi/static/css/main.314ffcc6.chunk.css"
   },
   {
-    "revision": "c117ce5dd28ff625a2a6",
-    "url": "/amirrezahaghverdi/static/js/2.90f5fd99.chunk.js"
+    "revision": "1acfcbc4dfa4825fa20c",
+    "url": "/amirrezahaghverdi/static/js/2.7348c6cc.chunk.js"
   },
   {
-    "revision": "cfa3f72c9ad29c461895",
-    "url": "/amirrezahaghverdi/static/js/main.02930156.chunk.js"
+    "revision": "3c6ec8e43816c2d101c2",
+    "url": "/amirrezahaghverdi/static/js/main.934ee80f.chunk.js"
   },
   {
     "revision": "c9a85909428292d3162d",
@@ -120,16 +120,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/amirrezahaghverdi/static/media/asprin_web-min.7571d953.png"
   },
   {
-    "revision": "ab577429d43740789278c6910d80209d",
-    "url": "/amirrezahaghverdi/static/media/biblio1.ab577429.png"
-  },
-  {
     "revision": "ecb84f0a2dee269ad5cc13ee6de8ed17",
     "url": "/amirrezahaghverdi/static/media/bimarNegar-min.ecb84f0a.png"
-  },
-  {
-    "revision": "8afaff96065a716b11d0c736193454bc",
-    "url": "/amirrezahaghverdi/static/media/clusters.8afaff96.png"
   },
   {
     "revision": "f51efa2b1e6dd5cb80ba2acccf62fe58",
@@ -208,16 +200,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/amirrezahaghverdi/static/media/mirtaheri.2372f25c.jpg"
   },
   {
-    "revision": "dd60abac7d1a9a15996c2ff9fadc0381",
-    "url": "/amirrezahaghverdi/static/media/pop.dd60abac.png"
-  },
-  {
     "revision": "f5b6af44ccb2f93a406e573b3af795ef",
     "url": "/amirrezahaghverdi/static/media/salehi.f5b6af44.jpg"
-  },
-  {
-    "revision": "6fd7dfc731c922e125c4d06e813a36ec",
-    "url": "/amirrezahaghverdi/static/media/skim.6fd7dfc7.png"
   },
   {
     "revision": "2c69cdcacee078cd8ba528b5e0985118",
