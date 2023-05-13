@@ -78,6 +78,9 @@ class Intro extends React.Component {
                   <MDBNavItem onClick={() => { window.open("https://www.linkedin.com/in/amir-reza-haghverdi/") }}>
                     <MDBNavLink to="#"><i class="fab fa-linkedin"></i></MDBNavLink>
                   </MDBNavItem>
+                  <MDBNavItem onClick={() => { window.open("https://github.com/amir23reza") }}>
+                    <MDBNavLink to="#"><i class="fab fa-github"></i></MDBNavLink>
+                  </MDBNavItem>
                   <MDBNavItem onClick={() => { window.open("https://twitter.com/AmirrezaHagh") }}>
                     <MDBNavLink to="#"><i class="fab fa-twitter"></i></MDBNavLink>
                   </MDBNavItem>
