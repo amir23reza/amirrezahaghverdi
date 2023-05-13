@@ -8,7 +8,13 @@ class Portfolio extends Component {
                 <section className="text-center">
                     <h2 className="h1-responsive my-5" id="portfolio">Portfolio</h2>
                     <br />
-                    {/* <h4>Rapid Sensemaking of Scientific Documents</h4>
+                    <h4>carSHAiR</h4>
+                    <p>A platform (in web, <a href="https://play.google.com/store/apps/details?id=com.shairenv.app&hl=en_CA&gl=US" className="testimonialLink" target="_blank">Android</a>, and <a href="" className="testimonialLink" target="_blank">iOS</a>) which provides a peer-to-peer car rental business with complex workflows such as Driver's license verification, Auto-signing rental agreements, Car-Booking tailored Calendar, and ... .I was majorly responsible for developing the mobile applications in react native; however, I also handled number of tasks in both API development and web app development. </p>
+                    <MDBAnimation reveal type="fadeInUp">
+                        <img src={require('../images/portfolio/carShair.webp')} alt="carShair" className="portfolioImage" />
+                    </MDBAnimation>
+                    <br />
+                    <h4>Rapid Sensemaking of Scientific Documents</h4>
                     <p>M.Sc. Thesis project developed with ReactJS and D3.JS in order to implement a visual analytics system that supports researchers in making sense of the uploaded collection of scientific documents. The system is connected to an API developed with Flask and Python modules to provide Advanced Machine Learning and NLP functions and analytical information about each document.</p>
                     <MDBAnimation reveal type="fadeInUp">
                         <div style={{display: "flex", flexDirection: "column"}}>
@@ -22,7 +28,7 @@ class Portfolio extends Component {
                             </div>
                         </div>
                     </MDBAnimation>
-                    <br /> */}
+                    <br />
                     <h4>Asprin</h4>
                     <p>An application which is in collaboration with <a href="http://thc.tums.ac.ir/en/" className="testimonialLink">Tehran Heart Center</a> and about making a more comfortable situation for hypertension patients. It allows patients and doctors to experience online visits, online prescriptions, set reminders, fill up their online medical record and so many other features. It's implementation took more than 7,500 lines of code in clinet side using React Native Technology.</p>
                     <MDBAnimation reveal type="fadeInUp">

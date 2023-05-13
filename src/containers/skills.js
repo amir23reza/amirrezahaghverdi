@@ -55,12 +55,12 @@ class Skills extends Component {
                                 PROFICIENT
                             </MDBProgress>
                         </MDBAnimation>
-                        <MDBAnimation reveal type="fadeInDown">
+                        {/* <MDBAnimation reveal type="fadeInDown">
                             <h5>CodeIgniter (PHP)</h5>
                             <MDBProgress value={80} color="progress" height="40px">
                                 PROFICIENT
                             </MDBProgress>
-                        </MDBAnimation>
+                        </MDBAnimation> */}
                         <MDBAnimation reveal type="fadeInDown">
                             <h5>MySQL</h5>
                             <MDBProgress value={80} color="progress" height="40px">
@@ -105,9 +105,9 @@ class Skills extends Component {
                         
 
                         <MDBAnimation reveal type="fadeInDown">
-                            <h5>DevOps Tools (Docker, Git)</h5>
-                            <MDBProgress value={75} color="progress" height="40px">
-                                PROFICIENT
+                            <h5>Tools (Git, BitBucket, Jira, JEST, Bitrise, Docker, ...)</h5>
+                            <MDBProgress value={90} color="progress" height="40px">
+                                Expert
                             </MDBProgress>
                         </MDBAnimation>
 
@@ -127,7 +127,7 @@ class Skills extends Component {
 
                     </MDBCol>
                 </MDBRow>
-                <MDBRow>
+                {/* <MDBRow>
                 <MDBCol lg="12" md="12" sm="12">
                         <h3 className="skill_header">Languages</h3>
                         
@@ -148,7 +148,7 @@ class Skills extends Component {
 
 
                     </MDBCol>
-                </MDBRow>
+                </MDBRow> */}
                 </section>
             </MDBContainer>
         )
