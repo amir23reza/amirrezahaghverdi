@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/amirrezahaghverdi/static/css/main.94bfd205.css",
-    "main.js": "/amirrezahaghverdi/static/js/main.f2096e1d.js",
+    "main.js": "/amirrezahaghverdi/static/js/main.de0752e9.js",
     "static/media/about.jpg": "/amirrezahaghverdi/static/media/about.6a92c985c525e24d52c7.jpg",
     "static/media/asprin_web-min.png": "/amirrezahaghverdi/static/media/asprin_web-min.bfe0f51f99b994805ef1.png",
     "static/media/bimarNegar-min.png": "/amirrezahaghverdi/static/media/bimarNegar-min.1fd4cbf38870e4e78d5d.png",
@@ -35,10 +35,10 @@
     "static/media/arrow_left.svg": "/amirrezahaghverdi/static/media/arrow_left.2b063d13b9ef574cd7d1.svg",
     "static/media/arrow_right.svg": "/amirrezahaghverdi/static/media/arrow_right.0897f985cc5c7537b31d.svg",
     "main.94bfd205.css.map": "/amirrezahaghverdi/static/css/main.94bfd205.css.map",
-    "main.f2096e1d.js.map": "/amirrezahaghverdi/static/js/main.f2096e1d.js.map"
+    "main.de0752e9.js.map": "/amirrezahaghverdi/static/js/main.de0752e9.js.map"
   },
   "entrypoints": [
     "static/css/main.94bfd205.css",
-    "static/js/main.f2096e1d.js"
+    "static/js/main.de0752e9.js"
   ]
 }
